@@ -1,0 +1,27 @@
+{
+  "name": "blotato-preflight",
+  "version": "1.0.0",
+  "description": "Checks a social post against each platform's media and text rules BEFORE you schedule it, so you find out from your own machine instead of from a failed post hours later.",
+  "type": "module",
+  "bin": {
+    "preflight": "./bin/preflight.js"
+  },
+  "scripts": {
+    "test": "node test/run-tests.js",
+    "mcp": "node src/mcp-server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {},
+  "keywords": [
+    "blotato",
+    "social-media",
+    "preflight",
+    "validation",
+    "mcp",
+    "tiktok",
+    "instagram"
+  ],
+  "license": "MIT"
+}

@@ -1,0 +1,30 @@
+# Secrets. The API key lives in the environment, never in the repo.
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Node
+node_modules/
+npm-debug.log*
+package-lock.json
+
+# Scratch and downloaded media from local testing
+tmp/
+scratch/
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.mp4
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
+*.swp
